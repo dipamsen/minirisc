@@ -232,15 +232,15 @@ The ALU output is also used as the register writeback for arithmetic and logical
 
 The following figure shows the overall data path of the MiniRISC processor, with the instruction memory, data memory, register file, ALU, and multiplier unit.
 
-#figure(image("../data-path.png"), caption: [MiniRISC processor datapath])
+#figure(image("assets/data-path.png"), caption: [MiniRISC processor datapath])
 
 The following figure shows the multiplier and ALU unit.
 
-#figure(image("../alu-mul.png", width: 270pt), caption: [ALU and Multiplier unit])
+#figure(image("assets/alu-mul.png", width: 270pt), caption: [ALU and Multiplier unit])
 
 
 == Control Path
 
 The following figure shows the basic FSM for the control path of the MiniRISC processor.
 
-#figure(image("../control-path.png", width: 250pt), caption: [MiniRISC processor control path FSM])
+#figure(image("assets/control-path.png", width: 250pt), caption: [MiniRISC processor control path FSM])
