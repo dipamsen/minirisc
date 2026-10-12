@@ -23,7 +23,9 @@ module datapath(
     input wire mac_mode,
 
     input wire data_write,
+    input wire mem_en,
 
+    output wire done,
     output wire [7:0] op,
     output wire [6:0] fn
 );
@@ -146,7 +148,7 @@ module datapath(
         .clka(clk),
         .dina(regOut2),
         .douta(data_out),
-        .ena(1'b1),
+        .ena(mem_en),
         .wea(data_write)
     );
 
